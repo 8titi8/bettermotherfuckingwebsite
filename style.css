@@ -15,3 +15,27 @@ h1, h2, h3
 	line-height: 1.2;
 }
 
+#confirm
+{
+	background-color: rgba(230, 30, 70, 0.5)
+}
+
+function JSconfirm(){
+ 
+swal({   title: "Your account will be deleted permanently!",
+ 
+text: "Are you sure to proceed?",
+ 
+type: "warning",
+ 
+showCancelButton: true,
+ 
+confirmButtonColor: "#DD6B55",
+ 
+confirmButtonText: "Yes, Remove My Account!",
+ 
+cancelButtonText: "No, I am not sure!",
+ 
+closeOnConfirm: false,
+ 
+closeOnCancel: false },
