@@ -13,29 +13,24 @@ body
 h1, h2, h3
 {
 	line-height: 1.2;
+	color: rgb(55, 55, 55);
 }
 
-#confirm
+button
 {
-	background-color: rgba(230, 30, 70, 0.5)
+	background-color: magenta;
+	padding: 8px;
+	color: blue;
+	font-weight: bold;
+	font-size: 1.4em;
+	border: 3px dotted blue;
+	width: 300px;
+	height: 60px;
 }
 
-function JSconfirm(){
- 
-swal({   title: "Your account will be deleted permanently!",
- 
-text: "Are you sure to proceed?",
- 
-type: "warning",
- 
-showCancelButton: true,
- 
-confirmButtonColor: "#DD6B55",
- 
-confirmButtonText: "Yes, Remove My Account!",
- 
-cancelButtonText: "No, I am not sure!",
- 
-closeOnConfirm: false,
- 
-closeOnCancel: false },
+button:hover
+{
+	background-color: blue;
+	color: yellow;
+	border-color: yellow;
+}
